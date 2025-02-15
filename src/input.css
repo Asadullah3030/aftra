@@ -1,4 +1,10 @@
 @import "tailwindcss";
-*{
-    font-family: "Oleo Script Swash Caps", serif;
+
+
+
+.image-banner {
+    @apply w-full flex justify-center py-12 top-20 absolute
+}
+.image-title{
+    @apply absolute text-black text-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2; 
 }
